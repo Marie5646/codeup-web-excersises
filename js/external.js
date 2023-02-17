@@ -29,12 +29,12 @@
   alert('Your total will be' + (hercules + littlemermaid + brotherbear ) * priceperday);
 
  let google=400
+ let amazon=380
+ let facebook=350
 
  let googlehours= prompt('How many hours did you work at google this week?');
  console.log('User entered ' + googlehours);
-
- alert('Your total pay for google will be '+ googlehours * google);
-  let amazon=380
+ alert('Your total pay for google will be ' + googlehours * google);
 
  let amazonhours= prompt('How many hours did you work at amazon this week?');
  console.log('User entered ' + amazonhours);
@@ -58,7 +58,7 @@ console.log('user entered ' + productitems);
 
 let expirationdate= confirm('is the expiration date before february 24th');
 let premiummember=confirm('are you a premium number');
-alert(productitems>2&&expirationdate||premiummember);
+alert(productitems>2&&expirationdate)||premiummember;
 
 
 
