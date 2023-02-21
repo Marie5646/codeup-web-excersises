@@ -9,7 +9,6 @@
  alert(' Great ' + userinput + ' Is my favorite color too');
 
  let priceperday=3
- let facebook=350
 
  let brotherbear = prompt('How many days are you renting brother bear?');
  console.log('user entered'+ brotherbear);
