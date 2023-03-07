@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_container {
+    display: flex;
+    border: 3px solid black;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: ;
+    list-style: none;
+}
+

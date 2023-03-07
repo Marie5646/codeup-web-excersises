@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.body{
+    background-color: lightgrey;
+    font-family: 'Space Grotesk', sans-serif;;
+}
+
+
+nav{
+    background-color: black;
+    margin: 0;
+    padding: 0rem;
+    height: 100px;
+    position: sticky;
+}
+
+.nav_menu{
+    margin: -15px;
+    padding: 2rem ;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    position: sticky;
+    margin-right: 5px;
+
+}
+
+.nav_item{
+    list-style: none;
+    margin: 1rem;
+    margin-right: 2rem;
+    margin-bottom: auto;
+
+}
+
+.nav_item{
+    color: white;
+    font-size: medium;
+}
+
+.nav_item:first-child{
+    margin-right: auto;
+    margin-top: -14px;
+    margin-left: 50px;
+
+
+}
+.welcome_message{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 15rem;
+    margin-left: 4rem;
+    color: whitesmoke;
+    text-shadow: black 2px 3px 2px;
+    font-size: large;
+
+}
+
+
+
+
+.welcome_header{
+   color: orangered;
+}
+.main_section{
+    height: 500px;
+    background-image: url(../img/veridianbanner2.svg);
+    display: flex;
+
+}
+
+
+.main_section2{
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0rem;
+    background-color: black;
+
+}
+
+
+.box_headers {
+    margin-top: 70px;
+    margin-right: -5rem;
+    margin-left: auto;
+    color: orangered;
+
+;
+}
+
+.box{
+    margin-right: auto;
+    margin-left: 32px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.container2{
+    margin-right: auto;
+}
+.container1{
+    margin-right: auto;
+    margin-left: 15rem;
+}
+.container3{
+    margin-right: auto;
+}
+li{
+    color: white;
+    list-style: none;
+}
+
+.company_header{
+    max-width: available;
+    height: 80px;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.table_header{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: lighter;
+    font-size: large;
+    color: white;
+    height: 50px;
+}
+table{
+    background-color: lightgrey;
+    max-width: available;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border: 8px white;
+
+
+}
+
+
+th,td{
+    padding: 20px;
+    border: 3px solid white;
+
+
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover{
+    color: orangered;
+}
+a:visited{
+    color: blue;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+#tablerow1,#tablerow2,#tablerow3,#tablerow4{
+    background-color: orangered;
+}

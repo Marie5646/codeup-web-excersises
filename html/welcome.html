@@ -6,81 +6,119 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Veridian Dynamics</title>
+    <link rel="stylesheet" href="welcome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
 </head>
 <body>
+<nav>
+    <ul class="nav_menu">
+        <li class="nav_item"><a href="/" ><img src="../img/veridianlogo.png"
+        height="80px" width="80px"> </a></li>
+        <a href="link"><li class="nav_item">Home</li></a>
+        <a href="link1"><li class="nav_item">Contact</li></a>
+        <a href="link2"><li class="nav_item">About Us</li></a>
+        <a href="link3"><li class="nav_item">Book</li></a>
 
-<div>
-    <h1>Welcome to Veridian Dynamics!</h1>
+    </ul>
+</nav>
+
+<section class='main_section'>
+
+<div class="welcome_message">
+    <h1 class=" welcome_header">Welcome to Veridian Dynamics!</h1>
     <p>At Veridian Dynamics, <strong>we</strong> solve <em>your</em> problems with <strong><em>technology</em></strong>.</p>
 </div>
+    <div class="button">
+        <a href="#"> <img src="../img/button.svg"
+        width="300px"
+        height="300px"></a>
+
+    </div>
+</section>
 <hr>
-<section>
-    <h1>Core Values</h1>
+<section class="main_section2">
+    <div class='container1'>
+    <h1 class="box_headers" id="boxheader1">Core Values</h1>
+    <div class="box" id="box1">
     <ul>
         <li>Competence</li>
         <li>Involvement</li>
         <li>Technology</li>
     </ul>
-    <h1>Our Process</h1>
+    </div>
+    </div>
+    <div class="container2">
+    <h1 class="box_headers" id="boxheader2">Our Process</h1>
+    <div class="box" id="box2">
     <ol>
         <li>Plan</li>
         <li>Evaluate</li>
         <li>Implement</li>
     </ol>
-    <h1>2020 Vision</h1>
+    </div>
+    </div>
+    <div class="container3">
+    <h1 class="box_headers" id="boxheader3">2020 Vision</h1>
+    <div class="box" id="box3">
     <ul>
         <li>Become #1 in Technology</li>
         <li>Increase Success by 20%</li>
         <li>Technology Business by 30%</li>
     </ul>
+    </div>
+    </div>
 </section>
 <hr>
-<section>
-    <h1>Company Vision</h1>
-    <img src="../tropical%201.jpg"
-         width="500"
-         height="500"
+<h1 class="company_header">Company Vision</h1>
+<section class="section3">
+
+    <img  class="image1" src="../img/tech1.jpg"
+         width="380"
+         height="300"
          alt="Here is the image">
-    <img src="../tropical%202.jpg"
-         width="500"
-         height="500" alt="Here is the image">
-    <img src="../tropical%203.jpg"
-         width="500"
-         height="500"
+    <img class='image2' src='../img/tech2.jpg'
+         width="380"
+         height="300" alt="Here is the image" >
+    <img class='image3' src="../img/tech3.jpg"
+         width="380"
+         height="300"
          alt="Here is the image">
-    <img src="../tropical%204.jpg"
-         width="500"
-         height="500"
+    <img class='image3' src="../img/tech4.jpg"
+         width="380"
+         height="300"
          alt="Here is the image">
 
 </section>
-<h1>Our Product</h1>
+<h1 class="table_header">Our Product</h1>
 
 <table>
-    <tr>
-        <th>Product</th>
-        <th>Price</th>
-        <th>Features</th>
+    <tr class="tablerows" id="tablerow1" >
+        <th class="th1">Product</th>
+        <th class="th2">Price</th>
+        <th class="th3">Features</th>
     </tr>
-    <tr>
+    <tr class="tablerows" id="tablerow2">
         <td>Starter</td>
         <td>$99</td>
         <td>Base Technology</td>
     </tr>
-    <tr>
+    <tr class="tablerows"id="tablerow3">
         <td>Advanced</td>
         <td>$199</td>
         <td>Additional Features</td>
     </tr>
-    <tr>
+    <tr class="tablerows"id="tablerow4">
         <td>Premium</td>
         <td>$499</td>
         <td>Unlimited Support</td>
     </tr>
 </table>
+<footer>
 <p><em>All products come with our quality guarantee</em> &#8482;</p>
 
 <a href="#top">Go to the top of the page.</a>
-
+</footer>
 </body>
 </html>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="298" height="113" viewBox="0 0 298 113">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff4500;
+        stroke: #fff;
+        stroke-width: 6px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 36px;
+        font-family: Futura-Medium, Futura;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        filter: url(#Rectangle_2);
+      }
+    </style>
+    <filter id="Rectangle_2" x="0" y="0" width="298" height="113" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(-511 698)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 511, -698)">
+      <g id="Rectangle_2-2" data-name="Rectangle 2" class="cls-1">
+        <rect class="cls-3" width="289" height="107" rx="45"/>
+        <rect class="cls-4" x="3" y="3" width="283" height="101" rx="42"/>
+      </g>
+    </g>
+    <text id="Get_A_Quote" data-name="Get A Quote" class="cls-2" transform="translate(549 -630)"><tspan x="0" y="0">Get A Quote</tspan></text>
+  </g>
+</svg>
