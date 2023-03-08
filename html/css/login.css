@@ -46,6 +46,7 @@ fieldset {
 
 .form-label {
     /* The text of a label must be bold */
+    font-weight: bold;
 }
 
 .btn-block {
@@ -75,7 +76,7 @@ fieldset {
     padding-bottom: 4px;
     margin-bottom: .5em;
     margin-top: .5em;
-    width: calc(100% - 2px);
+    width: calc(100% - 4px);
 }
 
 

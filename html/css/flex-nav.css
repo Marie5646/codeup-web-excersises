@@ -1,0 +1,53 @@
+body{
+    list-style: none;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    background-color: grey;
+}
+
+.logo{
+    font-size: 3em;
+    padding-bottom:.2em;
+    padding-top: .2em;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.nav_link{
+padding: .5em;
+}
+
+.nav_item {
+    display: inline-block;
+    padding: .5em
+}
+
+
+nav{
+display:flex;
+}
+
+.navbar_right {
+    display: flex;
+    margin-right: 2px;
+
+}
+
+.navbar_left{
+    display: flex;
+    margin-right: auto;
+}
