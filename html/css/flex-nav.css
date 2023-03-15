@@ -1,39 +1,40 @@
-body{
+*{
     margin: 0;
+    box-sizing: border-box;
 }
 nav{
-    background-color: grey;
+    background-color: lightgrey;
 }
 
 .logo {
     font-size: 3em;
-    padding-bottom: .2em;
     padding-top: .2em;
+    padding-bottom: .2em;
     font-family: 'Work Sans', sans-serif;
-    font-weight: initial;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: normal;
 }
 
-.nav_bar{
+
+ul{
     display: flex;
-    justify-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    margin: auto;
-}
-
-.nav_link{
-    padding: .5em;
-}
-
-li{
     font-weight: bold;
     list-style: none;
     font-size: small;
+    padding: .5em;
 }
+
 a{
+    padding: .5em;
     display: inline-block;
     text-decoration: none;
     color: black;
 }
 
+a:hover{
+    color: blue;
+
+}
