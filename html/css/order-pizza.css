@@ -1,5 +1,5 @@
 .container{
-    background-image: url("../img/pizza.png");
+    background-image: url("../../img/pizza.png");
     background-size: cover;
     height: 346px;
     display: flex;
