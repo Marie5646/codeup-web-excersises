@@ -1,0 +1,18 @@
+.container{
+    background-image: url("../img/pizza.png");
+    background-size: cover;
+    height: 346px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    background-color: rgba(255, 255, 255, 0.56);
+    text-align: center;
+    width: 100%;
+}
+
+form{
+    margin-left: 3%;
+}

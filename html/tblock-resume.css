@@ -1,8 +1,15 @@
-
+*{
+    margin: 0;
+}
 body{
     font-family: 'Jost', sans-serif;
 }
 ul{
     list-style: none;
     color: black;
+}
+.col-xs-2{
+    background-color: #0fb784;
+    border: 2px solid black;
+
 }
