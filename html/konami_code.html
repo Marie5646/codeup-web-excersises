@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Komani Code</title>
+    <link href="konami_code.css" rel="stylesheet">
+</head>
+<body>
+<h1 id="blink">Konami Code</h1>
+<p>Unlock the dance break</p>
+<!--<audio controls muted src="../img/imtoosexy.mp3"></audio>-->
+
+
+<script>
+
+    function strobetext() {
+        var blink =
+            document.getElementById('blink');
+
+        setInterval(function () {
+            blink.style.opacity =
+                (blink.style.opacity == 0 ? 1 : 0);
+        }, 200);
+    }
+
+   let keys={
+   38:'up',
+   40:'down',
+   37:'left',
+   39:'right',
+   65:'a',
+   66:'b',
+ }
+
+ let konamiCode= ['up','up','down','down','left','right','left','right','b','a']
+
+document.addEventListener('keyup', checkCode, false)
+
+ let keyCount = 0;
+
+function checkCode(event) {
+    let keyPressed = keys[event.keyCode];
+
+    if (keyPressed === konamiCode[keyCount]) {
+        keyCount++
+
+        if (keyCount === konamiCode.length) {
+            playMusic()
+            dancingBoy()
+            resetGame()
+            strobetext()
+        }
+        } else {
+            resetGame()
+        }
+}
+
+ function resetGame(){
+     keyCount=0
+ }
+
+
+ function dancingBoy() {
+    setTimeout(function () {
+        var addImg = document.createElement("img");
+        addImg.setAttribute('src', 'https://media.giphy.com/media/OxlLeDchseuv7wrMei/giphy.gif');
+        addImg.setAttribute('alt', 'na');
+        addImg.setAttribute('height', '600px');
+        addImg.setAttribute('width', '600px');
+        // addImg.setAttribute('position', 'center');
+        addImg.setAttribute('margin-left', '20rem');
+        addImg.setAttribute('margin-right', '20rem');
+        addImg.setAttribute('padding-bottom', '0');
+        document.body.appendChild(addImg);
+
+    },5000);
+     setTimeout(function () {
+         var addImg2 = document.createElement("img");
+         addImg2.setAttribute('src', 'https://media.giphy.com/media/OxlLeDchseuv7wrMei/giphy.gif');
+         addImg2.setAttribute('alt', 'na');
+         addImg2.setAttribute('height', '600px');
+         addImg2.setAttribute('width', '600px');
+         // addImg2.setAttribute('position', 'center');
+         addImg2.setAttribute('margin-left', '40rem');
+         addImg2.setAttribute('margin-right', '40rem');
+         addImg2.setAttribute('padding-bottom', '0');
+         document.body.appendChild(addImg2);
+
+     },6000);
+     setTimeout(function () {
+         var addImg3 = document.createElement("img");
+         addImg3.setAttribute('src', 'https://media.giphy.com/media/OxlLeDchseuv7wrMei/giphy.gif');
+         addImg3.setAttribute('alt', 'na');
+         addImg3.setAttribute('height', '600px');
+         addImg3.setAttribute('width', '600px');
+         // addImg3.setAttribute('position', 'center');
+         addImg3.setAttribute('margin-left', '35rem');
+         addImg3.setAttribute('margin-right', '35rem');
+         addImg3.setAttribute('padding-bottom', '0');
+         document.body.appendChild(addImg3);
+     },7000);
+ }
+
+
+function playMusic(){
+    let audio= new Audio('../img/imtoosexy.mp3#t=,36');
+    audio.play()
+}
+
+
+
+</script>
+</body>
+</html>

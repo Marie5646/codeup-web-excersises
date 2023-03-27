@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.typekit.net/wdd6mvj.css">
+    <title>Document</title>
+</head>
+<body>
+<h1 class="heading" id="heading-message">Hello World</h1>
+
+<p class="codeup" id="message">Welcome to my webpage user</p>
+
+
+<ul class="codeup">
+    <li>about</li>
+    <li>home</li>
+    <li>contact</li>
+</ul>
+
+
+<div class="codeup">
+    <p>Banner</p>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+<script>
+
+
+//
+// let headingMessage = $('#heading-message').html();
+// alert(headingMessage)
+//let multiSelector = $('.codeup').css('border', '1px solid black');
+//
+//let liSelector= $('li').css('font-size', '20px')
+//
+//let highlightSelectors= $('h1,p,li').css('background-color','yellow');
+//
+//var h1selector = $('h1').html();
+//alert(h1selector);
+
+
+$('h1').click(
+    function(e) {
+        $(this).css('color','#174442');
+});
+
+
+$('p').dblclick(
+    function(e) {
+        $(this).css('font-size','18px');
+    });
+
+
+
+$('li').hover(
+    function() {
+        $(this).css('color', '#FF0B0B');
+    },
+    function() {
+        $(this).css('color', '#0C0C0C');
+    }
+);
+
+
+
+
+</script>
+
+</body>
+</html>
