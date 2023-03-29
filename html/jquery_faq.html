@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>National Park FAQ</h1>
+
+<!--<dl>-->
+<!--  <dt><h3>Yellow Stone Nat Park</h3></dt>-->
+<!--  <dd class="invisible">Q;Where do I Make Reservations to Stay in Yellowstone?</dd>-->
+<!--  <dd class="invisible">A;Yellowstone National Park Lodges operates the nine lodges in the park. All are open from late spring through fall, but only two are open in the winter: Old Faithful Snow Lodge and Mammoth Hot Springs Hotel. Be sure to make a reservation early!-->
+<!--  </dd>-->
+
+<!--  <dt><h3>Glacier National Park</h3></dt>-->
+<!--  <dd class="invisible">Q;When will Going-to-the-Sun Road open?</dd>-->
+<!--  <dd class="invisible">A;Plowing Going-to-the-Sun Road is a monumental challenge each year. Unpredictable spring snow storms or other weather related events can slow down plowing progress. It is not uncommon for plowing crews to need to re-plow sections of park roads when weather events happen. Safety for our plowing crews, contractors, and the public is our utmost concern and priority. These unknown factors make predicting the opening of Going-to-the-Sun Road impossible. Our directions, transportation, & road conditions page provides information on where plows are working. As the status of the road changes, we will immediately update the page immediately.-->
+<!--  </dd>-->
+
+<!--  <dt><h3>Bryce Canon National Park</h3></dt>-->
+<!--  <dd class="invisible">Q;How long does it take to visit Bryce Canyon?</dd>-->
+<!--  <dd class="invisible">A;It takes a minimum of 3 hours to drive to the 13 viewpoints along the park's 38-mile (round-trip) scenic drive. In addition, there are hiking trails, ranger programs, horseback rides, campgrounds and picnic areas to greater enhance and extend your visit.-->
+<!--  </dd>-->
+<!--</dl>-->
+
+
+<h3 class="parkhead">State Parks of Texas</h3>
+<ul class="park" id="national-parks">
+  <li>Arches</li>
+  <li>Badlands</li>
+  <li>Carlsbad Caverns</li>
+  <li>Denali</li>
+  <li>Everglades</li>
+</ul>
+<h3 class="parkhead" >State Parks of Texas</h3>
+<ul class="park" id="state-parks-florida">
+  <li>Abilene</li>
+  <li>Big Bend</li>
+  <li>Choke Canyon</li>
+  <li>Davis Mountains</li>
+  <li>Enchanted Rock</li>
+</ul>
+<h3 class="parkhead">State Parks of Texas</h3>
+<ul class="park" id="state-parks-texas">
+  <li>Abilene</li>
+  <li>Big Bend</li>
+  <li>Choke Canyon</li>
+  <li>Davis Mountains</li>
+  <li>Enchanted Rock</li>
+</ul>
+
+<button type="button" id="changeColor">click me</button>
+
+<!--<button type="button" id="toggle-btn">click me</button>-->
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+<script>
+
+"use strict"
+
+//   $(document).ready(function() {
+//     $('#toggle-btn').click(function (event) {
+//       event.preventDefault()
+//       $('.invisible').toggleClass('visibilty');
+//     });
+//   });
+
+//
+// $('ul').each(function(index) {
+//   if(index === ul.length-1){
+//     $('li').css('background-color', '#FF0');
+//   }
+// });
+
+
+
+
+
+$(document).ready(function() {
+  $('#changeColor').click(function (){
+    $("ul li:last-child").css("background-color","yellow");
+  });
+});
+
+$(document).ready(function (){
+  $('#parkhead').click()(function () {
+    $(this).next().css("font-weight","bold");
+  });
+});
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
