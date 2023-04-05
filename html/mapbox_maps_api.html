@@ -1,0 +1,101 @@
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport"-->
+<!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--    <title> Mapbox </title>-->
+<!--    <script src='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js'></script>-->
+<!--    &lt;!&ndash; Mapbox CSS &ndash;&gt;-->
+<!--    <link href='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' />-->
+<!--    <style>-->
+<!--        #map {-->
+<!--            /* the width and height may be set to any size */-->
+<!--            width: 100%;-->
+<!--            height: 700px;-->
+<!--        }-->
+<!--    </style>-->
+<!--<body>-->
+
+<!--<h1>My First Mapbox Map!</h1>-->
+
+<!--&lt;!&ndash; The HTML element that serves as the Mapbox container &ndash;&gt;-->
+<!--<div id='map'></div>-->
+<!--<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>-->
+<!--<script src="../js/keys.js"></script>-->
+<!--<script src="../js/mapbox_geocoder.js"></script>-->
+<!--<script src="data/mapbox.json"></script>-->
+<!--&lt;!&ndash; Custom JS &ndash;&gt;-->
+<!--<script>-->
+
+<!--    let  favResturaunts = [-->
+<!--        {-->
+<!--            "center": "plano",-->
+<!--            "marker": [" -96.67394637053648","33.02291724035318"],-->
+<!--            "popup":"winners bbq",-->
+<!--        },{-->
+<!--            "center": "frisco",-->
+<!--            "marker": ["-96.8049575153408","33.11531216988873"],-->
+<!--            "popup":"hooters",-->
+<!--        },{-->
+<!--            "center": "carrollton",-->
+<!--            "marker": ["-96.91146711840403","32.99728992954629"],-->
+<!--            "popup":"crab station",-->
+<!--        }-->
+<!--    ]-->
+
+<!--            // let marker = new mapboxgl.Marker()-->
+<!--            //     .setLngLat([-96.82583, 33.083005])-->
+<!--            //     .addTo(map);-->
+<!--            // var popup = new mapboxgl.Popup()-->
+<!--            //     .setLngLat([-96.82583, 33.083005])-->
+<!--            //     .setHTML("<p>My Fav resturaunt</p>")-->
+<!--            //     .addTo(map)-->
+
+<!--    mapboxgl.accessToken = MAPBOXAP_TOK;-->
+<!--    let map = new mapboxgl.Map({-->
+<!--        container: 'map', // container ID-->
+<!--        style: 'mapbox://styles/mapbox/streets-v11', // style URL-->
+<!--        zoom: 10, // starting zoom-->
+<!--        center: [-96.6989, 33.0198] // [lng, lat]-->
+<!--    });-->
+
+
+<!--    favResturaunts.forEach(function (mapboxInfo) {-->
+<!--        geocode(mapboxInfo.center, MAPBOXAP_TOK).then(function (result) {-->
+<!--            let mapCenter = ([result[0], result[1]])-->
+<!--            map.setCenter(mapCenter);-->
+<!--            map.setZoom(10)-->
+<!--            new mapboxgl.Marker().setLngLat(mapboxInfo.marker).addTo(map);-->
+<!--            new mapboxgl.Popup().setLngLat(mapboxInfo.marker).setHTML("<p>" + mapboxInfo.popup + "</p>").addTo(map)-->
+<!--        });-->
+<!--    });-->
+
+
+
+
+
+
+<!--    //     let mapCenter = map.setCenter(result[0],result[1]);-->
+<!--    //         map.setZoom(15);-->
+<!--    //     let marker = new mapboxgl.Marker()-->
+<!--    //         .setLngLat(mapboxInfo.address[0],mapboxInfo.address[1])-->
+<!--    //         .addTo(map);-->
+<!--    //     let popup = new mapboxgl.Popup()-->
+<!--    //         .setLngLat([mapbox.address[0]])-->
+<!--    //         .setHTML("<p>" + mapboxInfo.marker + "</p>")-->
+<!--    //         .addTo(map)-->
+<!--    // });-->
+<!--    //     // createMarker()-->
+
+
+
+
+
+
+
+
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->

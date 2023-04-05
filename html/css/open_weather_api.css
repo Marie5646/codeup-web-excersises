@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+}
+
+pre#coordinates.coordinates{
+    display: none;
+}
+
+#map{
+    width: 90%;
+    height: 400px;
+    margin-left: 6em;
+    border-radius: 25px;
+    box-shadow: -19px 14px 15px -2px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -19px 14px 15px -2px rgba(0,0,0,0.47);
+    -moz-box-shadow: -19px 14px 15px -2px rgba(0,0,0,0.47);
+}
+
+nav{
+    background-color: rgba(34, 193, 195, 0.8);
+    font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navlogo{
+    color: white;
+    margin: .5em;
+}
+
+.weather-data{
+    display: flex;
+    margin: 2em;
+}
+
+.card{
+    /*margin-top: 30em;*/
+    border: none;
+    border-radius: 22px;
+    padding: .5em;
+    margin: 1em;
+    width: 100em;
+    height: 50%;
+    text-align: center;
+    background: rgb(34,193,195);
+    opacity: 90%;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    box-shadow: -19px 14px 15px -2px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -19px 14px 15px -2px rgba(0,0,0,0.47);
+    -moz-box-shadow: -19px 14px 15px -2px rgba(0,0,0,0.47);
+
+}
+
+.temp{
+    margin-top: .5em;
+}
+li{
+    list-style: none;
+    display: flex;
+    font-size: small;
+}
+ul{
+
+    margin-left: .5px;
+    margin-bottom: 0;
+    margin-top: 3em;
+    padding-left: .5em;
+    padding-bottom: 0;
+}
+#wicon{
+    /*border: 2px solid black;*/
+}
+.weekday-header{
+    text-align: center;
+    font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: x-large;
+    letter-spacing: 1px;
+}
+
+.card-header{
+    background:none;
+
+}
+
+.humidity-title{
+    margin-right: 100px;
+    text-align: right;
+    font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    letter-spacing: .5px;
+}
+
+.wind-title{
+    text-align: right;
+    margin-right: 123px;
+    font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    letter-spacing: .5px;
+}
+.pressure-title{
+    text-align: right;
+    margin-right: 92px;
+    font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    letter-spacing: .5px;
+}
+
+.btn{
+    color: rgba(34, 193, 195, 0.8);
+    background-color: white;
+}
+
+.btn:hover{
+    background-color: #FDBB2DFF;
+    color: white;
+}
+
+.desc{
+    text-align: center;
+    font-size: small;
+    font-family: "owners", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: .5px;
+    color: rgba(128, 128, 128, 0.89);
+}
+
+.temp{
+    margin-right: 7em;
+    margin-left: .5em;
+    margin-top: 1em;
+    font-size: 30px;
+    white-space: nowrap;
+    color: white;
+}
+
+.humidity-data{
+    color: white;
+}
+
+.data{
+    color: white;
+}
+
+input{
+    font-weight: 200;
+}
+
+#wicon{
+    height: 50px;
+    width: 50px;
+    float: right;
+    position: relative;
+    bottom: 3em;
+    right: 3em;
+}
+
+.icon-temp{
+    white-space: break-spaces;
+
+}
+
+.icon{
+    margin: 0;
+}
+
+.card-dayone{
+    background-color: #22C1C3CC;
+    margin-left: 4em;
+    margin-top: 3em;
+    width: 90%;
+    height: 400px;
+    background-size: cover;
+    border-radius: 22px;
+    overflow: hidden;
+
+}
+.weekday-headerone{
+    margin-left: 1em;
+    margin-top: .5em;
+    margin-right: .5em;
+    font-size: 45px;
+    font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.iconone{
+    margin-top: -9em;
+    margin-left: 15em;
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.ulone{
+    margin-left: 40em;
+    margin-top: 4em;
+    /*margin-bottom: 3em;*/
+
+}
+
+.dataone{
+    color: grey;
+    font-family: "owners", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.descone{
+    text-align: center;
+    margin-left: 19em;
+    margin-top: -3em;
+    font-size: x-large;
+    font-family: "owners", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: .5px;
+    color: grey;
+
+}
+
+.tempone{
+    margin-left: 20.5em;
+    margin-bottom: 2em;
+    padding: 0;
+    margin-top: 1em;
+    font-size: 40px;
+    white-space: nowrap;
+    color: white;
+}
+.humidityone-title{
+    margin-right: 100px;
+    text-align: right;
+    font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    letter-spacing: .5px;
+}
+
+.windone-title{
+    text-align: right;
+    margin-right: 123px;
+    font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    letter-spacing: .5px;
+}
+.pressureone-title{
+    margin-right: 98px;
+    text-align: right;
+    font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    letter-spacing: .5px;
+}
+
+ul.temp-details{
+    /*display:flex;*/
+    /*justify-content: space-evenly;*/
+    margin-left: 60em;
+    margin-bottom: -19em;
+    margin-top: -6.5em;
+    color: white;
+    text-align: right;
+    font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .5px;
+
+}
+
+.detailesone{
+    padding: 3em;
+    color: white;
+    margin-right: 3em;
+}
+
+.lidetails{
+    margin-left: 20px;
+    margin-top: 1px;
+    color: grey;
+    font-weight: normal;
+}

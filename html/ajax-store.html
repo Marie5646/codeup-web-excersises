@@ -34,21 +34,21 @@
       $.ajax('data/inventory.json').done(function (data){
                 console.log(data)
                 console.log(data[0].title)
-      data.forEach(function (dataInfo){
-          console.log(dataInfo.title)
-          console.log(dataInfo.quantity)
-          console.log(dataInfo.categories)
-          console.log(dataInfo.price)
-          $('#products').append($('<tr>')
-              .append($('<td>').append(dataInfo.title))
-              .append($('<td>').append(dataInfo.quantity))
-              .append($('<td>').append(dataInfo.categories))
-              .append($('<td>').append(dataInfo.price))
-          )
-      });
-          $('#btn').click(function (){
-              window.location.reload()
-          });
+      // data.forEach(function (dataInfo){
+      //     console.log(dataInfo.title)
+      //     console.log(dataInfo.quantity)
+      //     console.log(dataInfo.categories)
+      //     console.log(dataInfo.price)
+      //     $('#products').append($('<tr>')
+      //         .append($('<td>').append(dataInfo.title))
+      //         .append($('<td>').append(dataInfo.quantity))
+      //         .append($('<td>').append(dataInfo.categories))
+      //         .append($('<td>').append(dataInfo.price))
+      //     )
+      // });
+      //     $('#btn').click(function (){
+      //         window.location.reload()
+      //     });
 
       });
 

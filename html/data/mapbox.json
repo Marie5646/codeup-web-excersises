@@ -1,0 +1,15 @@
+  [
+   {
+    "center": "plano",
+    "marker": "winners bbq",
+    "popup":"resturaunt #1"
+  },{
+    "center": "frisco",
+    "marker": "hooters",
+    "popup":"resturaunt #2"
+  },{
+    "center": "carroltn",
+    "marker": "crab station",
+    "popup":"resturaunt #3"
+   }
+  ]
