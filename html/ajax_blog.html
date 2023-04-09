@@ -8,14 +8,24 @@
 
 <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 
-
+<div class="post"></div>
 
 <script>
     "use strict";
 
-    $.ajax('data/blog.json').done(function(blog){
-        console.log(blog)
+        $.ajax('data/blog.json').done(function (blogdata) {
+            console.log(blogdata[0].title)
+            let html=""
+        for (let i = 0; i <= blogdata.length-1; i++){
+            html += "<h1>" + blogdata[i].title + "</h1>";
+            html += "<p>" + blogdata[i].content + "</p>";
+            html += "<p>" + blogdata[i].categories + "</p>";
+            html += "<p>" + blogdata[i].date + "</p>";
+        }
+                $('.post').html(html)
     });
+
+
 
 
 
