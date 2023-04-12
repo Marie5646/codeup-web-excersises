@@ -29,12 +29,6 @@ const users = [
   }
 ];
 
-
-
-
-
-
-
 // TODO: fill in your name and email and add some programming languages you know
 // to the languages array
 // TODO: replace the `var` keyword with `const`, then try to reassign a variable
@@ -44,13 +38,13 @@ var languages = ['javascript','css','html'];
 
 
 
-
 // TODO: rewrite the object literal using object property shorthand
 users.push({
   name: name,
   email: email,
   languages: languages
 });
+
 
 const person = {
   name,
@@ -66,7 +60,7 @@ let names = [];
 
 
 users.forEach((user) =>
-   names.push(users.name))
+   names.push(user.name))
 
 users.forEach((user) =>
    emails.push(emails.name))
@@ -83,7 +77,7 @@ users.forEach(function(user) {
 
   // const user = { name: user.name, email: user.email, languages: user.languages};
   const users = { name:user.name,email:user.email,languages:user.languages } ;
-  const { name, email,languages } = users;
+  const { name, email ,languages } = users;
 
 
   // const name = user.name;
@@ -91,16 +85,18 @@ users.forEach(function(user) {
   // const languages = user.languages;
 
   // TODO: rewrite the assignment below to use template strings
-  developers.push(`${name} + 's email is  + ${email} + ${name} + ${knows} + ${languages.join(', ')}`);
+  developers.push(`${name}'s email is${email}.${name} knows ${languages.join(', ')}`);
 });
 
 // TODO: Use `let` for the following variable
 let list = '<ul>';
 
 // TODO: rewrite the following loop to use a for..of loop
-for (let developers of iterable) {
-  developers
+for (let developer of developers) {
+
 
 // TODO: rewrite the assignment below to use template strings
-  list += `<li> + ${developer} + </li>` + ${list} +'</ul>';
+  list += `<li> ${developer}</li>`;
+
+  list += '</ul>';
 }
