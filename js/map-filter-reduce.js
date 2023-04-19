@@ -49,6 +49,27 @@ console.log(years/users.length)
 
 
 
+$.ajax({
+    url:'https://randomuser.me/api/',
+    dataType:'json',
+    success: function (data){
+        data.results.reduce((newUserObj , user) => {
+            newUserObj.name = user.name.first + " " + user.name.last;
+            newUserObj.username = user.login.username;
+            newUserObj.password = user.login.password;
+            newUserObj.avatar = user.picture.thumbnail;
+
+            console.log(newUserObj)
+        })
+    }
+})
+
+
+
+
+
+
+
 
 const longestEmail = users.reduce((longest, user) => {
     if (longest.length > user.email.length) {

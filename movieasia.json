@@ -5,168 +5,49 @@
       "title": "The GodFather",
       "genre": "Crime",
       "rating": "8.2/10",
-      "imgUrl": "https://www.imdb.com/title/tt0068646/mediaviewer/rm746868224/?ref_=tt_ov_i"
+      "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
     },
     {
       "id": 2,
       "title": "The Dark Knight",
       "genre": "Action",
-      "rating": "9.0",
-      "imgUrl": "https://www.imdb.com/title/tt0468569/mediaviewer/rm4023877632/?ref_=tt_ov_i"
+      "rating": "9.0/10",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg"
     },
     {
       "id": 3,
       "title": "Pulp Fiction",
       "genre": "Crime",
-      "rating": "8.9",
-      "imgUrl": "https://www.imdb.com/title/tt0110912/mediaviewer/rm1959546112/?ref_=tt_ov_i"
+      "rating": "8.9/10",
+      "image": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
     },
     {
       "id": 4,
       "title": "Forrest Gump",
       "genre": "Romance",
-      "rating": "8.8",
-      "imgUrl": "https://www.imdb.com/title/tt0109830/mediaviewer/rm1954748672/?ref_=tt_ov_i"
+      "rating": "8.8/10",
+      "image": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
     },
     {
       "id": 5,
       "title": "Saving Private Ryan",
       "genre": "War",
-      "rating": "8.6",
-      "imgUrl": "https://www.imdb.com/title/tt0120815/mediaviewer/rm1924732160/?ref_=tt_ov_i"
+      "rating": "8.6/10",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg"
     },
     {
       "id": 6,
       "title": "Toy Story",
       "genre": "Animation",
-      "rating": "8.3",
-      "imgUrl": "https://www.imdb.com/title/tt0114709/mediaviewer/rm3813007616/?ref_=tt_ov_i"
+      "rating": "8.3/10",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_.jpg"
     },
     {
-      "title": "jj",
-      "genre": "jj",
-      "rating": "jj",
-      "imgUrl": "k",
+      "title": "Frozen",
+      "genre": "anime",
+      "rating": "9/10",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_.jpg",
       "id": 7
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 8
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 9
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 10
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 11
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 12
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 13
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 14
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 15
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 16
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 17
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 18
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 19
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 20
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 21
-    },
-    {
-      "title": {},
-      "genre": {},
-      "rating": {},
-      "imgUrl": {},
-      "id": 22
-    },
-    {
-      "title": "kndk",
-      "genre": "dmdk",
-      "rating": "flm",
-      "imgUrl": "flmf",
-      "id": 23
-    },
-    {
-      "title": "lion king",
-      "genre": "animation",
-      "rating": "10",
-      "imgUrl": "img",
-      "id": 24
     }
   ]
 }
