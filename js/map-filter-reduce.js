@@ -64,6 +64,7 @@ $.ajax({
     }
 })
 
+
 const longestEmail = users.reduce((longest, user) => {
     if (longest.length > user.email.length) {
         return longest;
